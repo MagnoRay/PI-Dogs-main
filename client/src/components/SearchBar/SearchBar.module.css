@@ -1,12 +1,22 @@
+.container{
+    display: ruby;
+    justify-content: center;
+}
+
+.navul{
+    display: flex;
+    list-style: none;
+}
+
+
 .button {
-    background : rgb(0, 128, 0); 
-    border-radius: 0.5em;
+    background : rgb(0, 128, 0);
     border: none;
     color : white; 
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 13px;
     height: 35px;
-    margin-left: 2px;
+    border-radius: 0 10px 10px 0;
 }
 
 .button:hover {
@@ -14,10 +24,10 @@
 }
 
 .input {
-    padding : 10px 10px;
     border-radius : 0.5em;
-    margin-top: 8px;
-    
+    margin-top: 13px;
+    border-radius: 10px 0 0 10px;
+    outline: none;
 }
 
 .input:hover {

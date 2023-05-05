@@ -3,6 +3,7 @@ import { onSearchName } from "../../redux/actions";
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import Cards from '../Home/Cards'
+import { FaSearchengin } from 'react-icons/fa';
 
 const SearchBar = () => {
 
@@ -27,9 +28,11 @@ const handleSubmit = (e) =>{
 
     return(
         <div>
-        <div>
-            <input type='search' placeholder='Buscar por nombre..!' onChange={handleChange} className={styled.input} />
-            <button type='submit' onClick={(e)=>handleSubmit(e)} className={styled.button} >Buscar</button>
+        <div className={styled.container}>
+            <ul className={styled.navul}>
+                <input type='search' placeholder='Buscar por nombre..!' onChange={handleChange} className={styled.input} />
+                <button type='submit' onClick={(e)=>handleSubmit(e)} className={styled.button} ><FaSearchengin/></button>
+            </ul>
         </div>
         <Cards rdogs={rdogs} />
         </div>

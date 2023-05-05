@@ -9,7 +9,8 @@ import FormDogs from './components/FormDogs/FormDogs';
 
 import axios from 'axios';
 
-axios.defaults.baseURL = "https://pi-dogs-main-production-74cb.up.railway.app/";
+//axios.defaults.baseURL = "https://pi-dogs-main-production-74cb.up.railway.app/";
+axios.defaults.baseURL = "http://localhost:3001";
 
 
 
