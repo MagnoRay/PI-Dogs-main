@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { getTemperament, postDog, getDogs} from "../../redux/actions"
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import { validate } from "./validate.js";
+import { validate } from "./validate";
 import styled from "./FormDogs.module.css";
 
 const FormDogs = () => {
