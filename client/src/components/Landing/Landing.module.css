@@ -1,0 +1,61 @@
+.divb{
+    background: url('../../image/dogs.jpg');    
+    background-size: cover;    
+    height: 100vh;
+    display: flow-root;
+    padding-top: 50px;
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.h1land {
+    color: black;
+    font-size: 30px;
+}
+
+.buttonlan1{
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    color: darkblue;
+    background: rgba(224, 136, 136, 0.267);
+    margin: 8px 8px; 
+    padding: 4px 16px;
+    width: auto;
+    cursor: pointer;
+}
+.buttonlan1:hover {
+    background :  #2e86c148; 
+    transition: 0.5s;
+}
+
+.pland{
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: fangsong;
+}
+
+
+@media (max-width: 850px) {
+  
+    .divb{
+        background: url('../../image/dogs.jpg');    
+        background-size: cover;    
+        height: 100vh;
+        display: flow-root;
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+    }
+        
+    }

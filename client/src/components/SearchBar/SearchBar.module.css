@@ -1,0 +1,31 @@
+.button {
+    background : rgb(0, 128, 0); 
+    border-radius: 0.5em;
+    border: none;
+    color : white; 
+    cursor: pointer;
+    margin-top: 15px;
+    height: 35px;
+    margin-left: 2px;
+}
+
+.button:hover {
+    background :  #2e86c1; 
+}
+
+.input {
+    padding : 10px 10px;
+    border-radius : 0.5em;
+    margin-top: 8px;
+    
+}
+
+.input:hover {
+    background :  #2e86c1;
+    color: white;
+}
+
+
+
+
+

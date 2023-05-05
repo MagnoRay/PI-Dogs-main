@@ -1,0 +1,33 @@
+/* 
+// PRIMERA FORMA
+.container {
+  position: relative;
+  width: 200px;
+  border-radius: 5px;
+  overflow:hidden;
+  margin: 30px;   
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+  background: url('../../image/cardog.jpg');
+}
+
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+  -webkit-transform:scale(1.7);
+  transform:scale(1);
+  overflow:hidden;  
+  padding: 10px;
+}
+*/
+
+
+
+
+
+
+
+
+

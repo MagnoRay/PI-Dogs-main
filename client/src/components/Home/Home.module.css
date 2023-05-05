@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    background-color: rgb(29, 28, 28);
+    margin: 15px auto;
+}
+
+.divload {
+    margin-top: 200px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.spanload {
+    color: rgb(0, 128, 0);
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: fangsong;
+}
+  
+
